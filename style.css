@@ -1,8 +1,10 @@
 body {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
     font-family: Roboto, sans-serif;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
 }
 
 header,
@@ -70,4 +72,11 @@ a {
     border: none;
     padding: 10px 20px 10px 20px;
     border-radius: 12px;
+}
+
+.hero-image img {
+    display: block;
+    height: 300px;
+    width: 500px;
+    object-fit: cover;
 }
