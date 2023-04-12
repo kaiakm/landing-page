@@ -4,7 +4,6 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 100%;
 }
 
 header,
@@ -112,4 +111,28 @@ a {
 .image {
     max-width: 200px;
     text-align: center;
+}
+
+.quote {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+
+.quote-box {
+    max-width: 70%;
+}
+
+.quote-text {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.author {
+    text-align: right;
+    font-weight: bold;
 }
