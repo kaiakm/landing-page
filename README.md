@@ -1,2 +1,10 @@
 # landing-page
-another project
+image credit:
+
+
+annie sprat
+bundo kim
+marivi pazos
+ryunosuke kikuno
+
+@ upscale
