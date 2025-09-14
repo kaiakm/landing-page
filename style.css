@@ -21,7 +21,6 @@ footer {
 
 header,
 .hero,
-.signup,
 footer {
     padding: 0 250px;
 }
@@ -43,7 +42,8 @@ button {
     color: #F9FAF8;
 }
 
-.logo {
+.logo,
+.quote-credit {
     font-weight: bold;
     font-size: 24px;
 }
@@ -152,4 +152,17 @@ h2 {
 .item-info {
     text-align: center;
     color: gray;
+}
+
+.quote {
+    align-self: center;
+    padding: 100px 15%;
+}
+
+.quote-text {
+    font-style: italic;
+}
+
+.quote-credit {
+    text-align: right;
 }
