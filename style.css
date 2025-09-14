@@ -30,7 +30,7 @@ footer {
     padding-top: 80px;
     padding-bottom: 100px;
     gap: 30px;
-    align-items: center;;
+    align-items: center;
 }
 
 header {
@@ -38,13 +38,14 @@ header {
 }
 
 .logo,
-a {
+a,
+button {
     color: #F9FAF8;
-    size: 24px;
 }
 
 .logo {
     font-weight: bold;
+    font-size: 24px;
 }
 
 a {
@@ -69,9 +70,14 @@ p {
 }
 
 .hero-text,
+button,
+footer {
+    font-size: 18px;
+}
+
+.hero-text,
 footer {
     color: #E5E7EB;
-    font-size: 18px;
     height: auto;
 }
 
@@ -87,6 +93,11 @@ button,
 
 button {
     margin: 15px 0;
+    padding: 5px 30px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+
 }
 
 h2,
